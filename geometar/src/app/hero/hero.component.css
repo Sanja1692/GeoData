@@ -1,0 +1,10 @@
+.herowidge {
+    max-height: 30em;
+}
+
+.pic {
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: relative;
+}
