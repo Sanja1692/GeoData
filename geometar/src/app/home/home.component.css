@@ -1,11 +1,15 @@
 .parallax {
     /* The image used */
-    background-image: url('/assets/Foto/geodetska merenja smederevo (5).jpg');
+    background-image: url('/assets/Foto/hero.jpg');
     /* Full height */
     height: 100%;
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    /* background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+}
+
+.pozadina {
+    background-color: #B3C1DF;
 }
