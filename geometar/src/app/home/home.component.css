@@ -1,15 +1,14 @@
-.parallax {
-    /* The image used */
-    background-image: url('/assets/Foto/hero.jpg');
-    /* Full height */
-    height: 100%;
-    /* Create the parallax scrolling effect */
-    /* background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-}
-
 .pozadina {
     background-color: #B3C1DF;
+}
+
+.herowidge {
+    max-height: 30em;
+}
+
+.pic {
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: relative;
 }
