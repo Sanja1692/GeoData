@@ -5,3 +5,14 @@
 .icon {
     padding-right: 1em;
 }
+
+.efekat::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #B3C1DF;
+}
+
+.efekat:hover {
+    color: #B3C1DF;
+    box-shadow: 0 0 5px #B3C1DF;
+    text-shadow: 0 0 5px #B3C1DF;
+}

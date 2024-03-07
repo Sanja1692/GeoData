@@ -20,3 +20,12 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+
+.efekat::before {
+    transform: scale(1.1);
+}
+
+.efekat:hover {
+    color: #B3C1DF;
+    text-shadow: 0 0 5px #B3C1DF;
+}

@@ -1,5 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
+
+/* niko ne moze da kopira text sa stranice */
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .comfortaa-font {
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
@@ -9,4 +19,10 @@
 
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.btn {
+    background-color: #B3C1DF;
+    color: white;
+    border: whitesmoke;
 }
