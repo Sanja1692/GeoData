@@ -29,3 +29,14 @@
     color: #B3C1DF;
     text-shadow: 0 0 5px #B3C1DF;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: auto;
+}
+
+a:link:active,
+a:visited:active {
+    color: (internal value);
+}
