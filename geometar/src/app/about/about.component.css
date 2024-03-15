@@ -106,11 +106,15 @@ body {
 .articles {
     display: grid;
     max-width: 1200px;
-    margin-inline: auto;
+    margin-inline: 15%;
     padding-inline: 24px;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 24px;
-    padding-bottom: 8%;
+    padding-bottom: 6%;
+}
+
+.article-body {
+    max-width: 20em;
 }
 
 @media screen and (max-width: 960px) {
@@ -123,6 +127,9 @@ body {
 }
 
 @container card (min-width: 380px) {
+    .articles {
+        margin-inline: auto;
+    }
     .article-wrapper {
         display: grid;
         grid-template-columns: 100px 1fr;
