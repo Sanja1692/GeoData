@@ -28,7 +28,6 @@
 }
 
 .threeone {
-    display: inline-block;
     width: 33.33333333333%;
     height: 100%;
     background: white;
@@ -37,7 +36,6 @@
 }
 
 .threetwo {
-    display: inline-block;
     width: 33.333333333%;
     height: 100%;
     background: white;
@@ -45,7 +43,6 @@
 }
 
 .threethree {
-    display: inline-block;
     width: 33.333333333%;
     height: 100%;
     background: white;
@@ -80,7 +77,6 @@
 }
 
 .threeholder p {
-    display: inline-block;
     width: 200px;
     text-align: center;
     margin-left: -55px;
@@ -153,3 +149,20 @@
     margin-left: 78.33333px;
     border-radius: 50%;
 }
+
+
+/* 
+@media only screen and (min-width: 600px) {
+    .threeone {
+        display: inline-block;
+    }
+    .threetwo {
+        display: inline-block;
+    }
+    .threethree {
+        display: inline-block;
+    }
+    .threeholder p {
+        display: inline-block;
+    }
+} */
