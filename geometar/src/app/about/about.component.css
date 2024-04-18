@@ -106,15 +106,10 @@ body {
 .articles {
     display: grid;
     max-width: 1200px;
-    margin-inline: 15%;
+    margin-inline: auto;
     padding-inline: 24px;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 24px;
-    padding-bottom: 6%;
-}
-
-.article-body {
-    max-width: 20em;
 }
 
 @media screen and (max-width: 960px) {
@@ -124,21 +119,9 @@ body {
     .article-body p {
         display: none;
     }
-    figure {
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-    figure img {
-        height: 100%;
-        object-fit: cover;
-    }
 }
 
 @container card (min-width: 380px) {
-    .articles {
-        margin-inline: auto;
-    }
     .article-wrapper {
         display: grid;
         grid-template-columns: 100px 1fr;
